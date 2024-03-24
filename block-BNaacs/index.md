@@ -1,4 +1,3 @@
 writeCode
 
-Create an express application named `school` from scratch and setup ejs as template engine.
- 
+Cre ate an expre ss application named `school` from scratch and setup ejs as template engine.
