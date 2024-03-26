@@ -9,6 +9,7 @@ app.set("views", __dirname + "/views");
 // app.use(express.static("views"));
 
 // Making request
+// using .get
 app.get("/", (req, res) => {
     res.render("index.ejs", { schoolName: "DAV" });
 });
