@@ -1,8 +1,10 @@
 const express = require('express');
 const studentsRouter=require('./routes/students')
+const path = require('path');
 const app=express();
 app.set("view engine","ejs");
-app.set('views',__dirname+"/views");
+app.set("views",path.join(__dirname,"views"))
+// app.set('views',__dirname+"/views");
 
 app.get("/",(req,res)=>{
     res.render('index.ejs');
