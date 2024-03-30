@@ -3,7 +3,7 @@ writeCode
 Create a user resource
 
 1. generate User model
-2. add a POST request on "/users" in user router to handle form data.
+2. add a P OST request on "/users" in user router to handle form data.
 3. Send user information from html form which can be requested by doing GET request on "/users/new"
 4. Console user data in req.body in router file
 5. Save user to database using `User` model
